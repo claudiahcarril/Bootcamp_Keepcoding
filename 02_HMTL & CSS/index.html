@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Claudia Hernández</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="media/Logo WEB 3.png" alt="logo Claudia">
+        <img class="hamburguer-menu" src="media/outline_menu_white_24dp.png" alt="hamburguer menu">
+        <ul class="menu">
+            <li>
+                <a class="link" href="#about-me">About me</a>
+            </li>
+            <li>
+                <a class="link" href="#my-skills">Skills</a>
+            </li>
+            <li>
+                <a class="link" href="#contact-me">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="h1">
+            <h1>
+                <span>Claudia Hernández Portfolio</span>                
+            </h1>
+        </div>
+    </header>
+    <main>
+        <section>
+        <h2 id="about-me">About me</h2>
+        <p>Hello! I am Claudia Hernandez. I am currently learning to work as a Frontend Developer. This is my portfolio where you can see my skills with different programming languages.</p>
+        </section>
+        <section>
+            <h2 id="my-skills">My Skills</h2>
+            <ul class="skills">
+                <div class="skills-div">
+                    <li>SEO</li>
+                    <div class="skill-bar">
+                        <div id="seo"></div>
+                    </div>
+                </div>
+                <div class="skills-div">
+                    <li>HTML</li>
+                    <div class="skill-bar">
+                        <div id="html"></div>
+                    </div>
+                </div>
+                <div class="skills-div">
+                    <li>CSS</li>
+                    <div class="skill-bar">
+                        <div id="css"></div>
+                    </div>
+                </div>
+                <div class="skills-div">
+                    <li>Python</li>
+                    <div class="skill-bar">
+                        <div id="python"></div>
+                    </div>
+                </div>
+                <div class="skills-div">
+                    <li>Git</li>
+                    <div class="skill-bar">
+                        <div id="git"></div>
+                    </div>
+                </div>
+                <div class="skills-div">
+                    <li>JavaScript</li>
+                    <div class="skill-bar">
+                        <div id="js"></div>
+                    </div>
+                </div>
+            </ul>
+        </section>
+        <section>
+            <h2 id="contact-me">Contact with me</h2>
+            <form class="main-form" action="" method="get">
+                <div class="inputs-tag">
+                    <div class="form-tag">
+                        <label for="name" class="form-label">First Name</label>
+                        <input required id="name" name="name" type="text" placeholder="Your name">
+                    </div>
+                    <div class="form-tag">
+                        <label for="surname" class="form-label">Last name</label>
+                        <input required id="surname" name="surname" type="text" placeholder="Your last name">
+                    </div>
+                    <div class="form-tag" id="phone">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input required id="phone" name="phone" type="tel" placeholder="Your phone number" pattern="[0-9]+">
+                    </div>
+                    <div class="form-tag" id="github">
+                        <label for="github" class="form-label">GitHub Username</label>
+                        <input requiered id="github" name="github" type="text" placeholder="Using this format (@<username>)" pattern="^@[^\s]+">
+                    </div>
+                </div>
+
+                <div class="form-tag">
+                    <label for="information" class="form-label">How did you knew me?</label>
+                        <div class="info">
+                            <label for="university">Universidad</label>
+                            <input required id="university" name="contact-places" type="radio" value="university">
+                        </div>
+                        <div class="info">
+                            <label for="keepcoding">Keepcoding</label>
+                            <input required id="keepcoding" name="contact-places" type="radio" value="keepcoding">
+                        </div>
+                        <div class="info">
+                            <label for="high-school">High School</label>
+                            <input required id="high-school" name="contact-places" type="radio" value="high-school">
+                        </div>
+                        <div class="info">
+                            <label for="git">GitHub</label>
+                            <input required id="github" name="contact-places" type="radio" value="git">
+                        </div>
+
+                </div>
+                <div class="form-tag"> 
+                    <label for="message" class="form-label">More information</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Do you need to know something else?" maxlength="180"></textarea>
+                </div>
+                <div class="button">
+                    <input class="button-submit" type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="h3">
+            <h3>Find me on RRSS!</h3>
+        </div>
+        <div class="rrss">
+            <a href="https://www.linkedin.com/in/claudiahernandezcarril/">
+                <img src="media/linkedin.png" href="" alt="Linkedin" width="40px">
+            </a>
+            <a href="https://github.com/claudiahcarril">
+                <img src="media/github.png" alt="GitHub" width="40px">
+            </a>
+            <a href="https://www.instagram.com/claucarril/?hl=es">
+                <img src="media/instagram.png" alt="Instagram" width="40px">
+            </a>   
+        </div>
+    </footer>
+</body>
+</html>
+

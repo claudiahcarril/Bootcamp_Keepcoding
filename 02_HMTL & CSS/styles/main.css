@@ -1,0 +1,353 @@
+:root {
+    --primary-color: #fa575a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*, html, body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: black;
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: rgb(70, 69, 69) solid 1px;   
+}
+
+.navbar .logo {
+    width: 200px;
+    padding: 5px 0 10px 5px;   
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .link {
+    color: white;
+    text-decoration: none;
+    display: none;
+    margin-right: 20px;
+}
+
+
+.header {
+    background-image: url("/media/background_portfolio.png");
+    background-size: cover;
+    text-align: center;
+    padding: 80px 50px 80px 50px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+h1 {
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+    background-color: #fa575a;
+    margin: auto;
+    max-width: fit-content;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin: 40px 0 7px 0;
+}
+
+main section {
+    margin: 0 15px 0 10px;
+}
+
+.skills-div {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    width: 100%;
+}
+
+.skill-bar {
+    border: rgba(70, 69, 69, 0.26) solid 1px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    height: 25px;
+    width: 100%;
+    margin: 5px 0 15px 0;
+}
+
+@keyframes seo {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes git {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+#seo {
+    animation:seo 7s;
+    animation-fill-mode: forwards;
+    justify-items: center;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    height: 25px;
+}
+
+#html {
+    animation: html 7s;
+    animation-fill-mode: forwards;
+    justify-items: center;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    height: 25px;
+}
+
+#css {
+    animation: css 7s;  
+    animation-fill-mode: forwards;
+    justify-items: center;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    height: 25px;
+}
+
+#python {
+    animation: python 7s;  
+    animation-fill-mode: forwards;
+    justify-items: center;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    height: 25px;
+}
+
+#git {
+    animation: git 7s;  
+    animation-fill-mode: forwards;
+    justify-items: center;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    height: 25px;
+}
+
+#js {
+    animation: js 7s;  
+    animation-fill-mode: forwards;
+    justify-items: center;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    height: 25px;
+}
+
+.form-label {
+    font-weight: 600;
+    text-align: left;
+}
+
+.form-tag input[type=text], input[type=tel] {
+    display: flex;
+    width: 100%;
+    height: 25px;
+    border: rgba(70, 69, 69, 0.26) solid 1px;
+    background-color: rgba(240, 248, 255, 0.856);
+    margin: 2px 0 5px 0;
+}
+
+.form-tag {
+    padding-top: 15px;
+}
+
+.form-name {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4px 0 10px 0;
+    width: 100%;
+}
+
+
+
+
+#message {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border: rgba(70, 69, 69, 0.26) solid 1px;
+    background-color: rgba(240, 248, 255, 0.856);
+    margin: 2px 0 5px 0;
+}
+
+
+.button-submit {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer {
+    background-color: var(--primary-color);
+    margin-top: 25px;
+
+}
+
+.h3 {
+    color: white;
+    display: flex;
+    padding: 10px 0 10px 0;
+    justify-content: center;
+}
+
+.rrss {
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.rrss img {
+    margin: 0 8px 0 8px;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .header {
+        padding: 100px 50px 100px 50px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar .link  {
+        display: flex;
+        transition: color 0.3s linear;
+    }
+    .navbar .menu .link:hover {
+        color: black;
+    }
+
+    .hamburguer-menu {
+        display: none;
+    }
+
+    .header {
+        padding: 120px 50px 120px 50px;
+    }
+
+    .skills-div {
+        display: flex;
+        box-sizing: border-box;
+        width: 50%;
+        padding-right: 15px;
+    }
+
+    .inputs-tag {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .inputs-tag > *{
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+    .form-tag {
+        padding-right: 15px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .skills-div {
+        width: 33.33%;
+    }
+    .header {
+        padding: 150px 50px 150px 50px;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
